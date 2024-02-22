@@ -198,12 +198,15 @@ body{
     border-radius: 60px;
     overflow: hidden;
     background-color: var(--color-banner);
+    z-index: 1;
 }
 
 .banner__content{
+    position:relative;
     display: inline-block;
     width: 50%;
     padding: 0 1.5rem;
+    z-index: 3;
 }
 
 .banner__title{
@@ -232,3 +235,47 @@ body{
     background-color: var(--color-bg-btn);
     color: var(--color-text-body);
 }
+
+.shapes__item{
+    position: absolute;
+    z-index: 2;
+    pointer-events: none; 
+}
+
+.shapes__item--shape1{
+    top: 0;
+    right: 0;
+    text-align: right;
+}
+
+.shapes__item--shape2{
+    bottom: 0;
+    left: 0;
+    
+}
+
+.shapes__item--shape3{
+   top: 34%;
+   left: 50%;
+}
+
+.shapes__item--shape4{
+    bottom: 24rem;
+    left: 45%;
+ }
+
+ .shapes__item--shape5{
+    bottom: 12rem;
+    left: 53%;
+ }
+
+ .shapes__item--shape6{
+    bottom: 10rem;
+    left: 40%;
+ }
+
+ .shapes__item--shape7{
+    top:0;
+    right: 10rem;
+    z-index: 1;
+ }
