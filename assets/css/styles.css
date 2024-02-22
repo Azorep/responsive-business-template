@@ -2,6 +2,7 @@
 :root{
     --color-text-body: #525260;
     --color-primary: #5956e9;
+    --color-secondary: #fff;
 }
 
 /*ESTILOS GENERALES*/
@@ -93,5 +94,15 @@ body{
 }
 
 .nav__submenu{
-    display: none;
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 2rem;
+    min-width: 19rem;
+    padding: 1.5rem 1rem;
+    border-radius: 4px;
+    background-color: var(--color-secondary);
+    box-shadow: 0px 13px 48px 0 rgba(0, 0, 0, 15%);
+
+    border: 1px solid red;
 }
