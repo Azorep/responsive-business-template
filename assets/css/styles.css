@@ -5,6 +5,7 @@
     --color-secondary: #fff;
     --color-banner: #2522BA;
     --color-text-btn: #0d6efd;
+    --color-bg-btn: #ffdc60;
 }
 
 /*ESTILOS GENERALES*/
@@ -224,4 +225,10 @@ body{
     text-transform: capitalize;
     text-align: center;
     box-shadow: 0px 45px 80px -25px var(--color-primary);
+    transition: all 300ms ease-in-out;
+}
+
+.banner__btn:hover{
+    background-color: var(--color-bg-btn);
+    color: var(--color-text-body);
 }
