@@ -163,3 +163,21 @@ body{
     transform: translateX(0);
 }
 
+.submenu__title:hover{
+    color: var(--color-primary);
+}
+
+.submenu__title::after{
+    content: "";
+    height: 0.1rem;
+    width: 0;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background-color: var(--color-primary);
+    transition: all 300ms ease-in-out;
+}
+
+.submenu__title:hover::after{
+    width: 100%;
+}
