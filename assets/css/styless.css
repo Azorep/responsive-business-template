@@ -26,3 +26,35 @@ body{
     min-width: 1600px;
     height: 100%;
 }
+
+/*ESTILOS MENU NAVEGACIÓN Y CABECERA DE LA WEB */
+.layout__menu{
+    width: 100%;
+    padding: 5rem 9.5rem;
+}
+
+.menu__navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__logo{
+    width: 187px;
+}
+
+.nav__list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav__item{
+    position: relative;
+    margin: 0 2.4rem;
+}
+
+.nav__submenu{
+    display: none;
+}
