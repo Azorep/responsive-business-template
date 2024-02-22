@@ -290,21 +290,87 @@ body{
 .shapes__item--shape3{
    top: 34%;
    left: 50%;
+
+   animation: moveShape3 20s infinite;
+}
+
+@keyframes moveShape3 {
+    0%{
+        transform: translateX(0) translateY(0);
+    }
+
+    40%{
+        transform: translateX(50px) translateY(-200px);
+    }
+
+    75%{
+        transform: translateX(800px);
+    }
+
+    100%{
+        transform: translateX(0) translateY(0);
+    }
+
 }
 
 .shapes__item--shape4{
     bottom: 24rem;
     left: 45%;
+
+    animation: moveShape4 30s infinite;
+
  }
+
+ @keyframes moveShape4 {
+    0%{
+        transform: translateX(0) translateY(0);
+    }
+
+    40%{
+        transform: translateX(-50px) translateY(200px);
+    }
+
+    75%{
+        transform: translateX(-500px);
+    }
+
+    100%{
+        transform: translateX(0) translateY(0);
+    }
+
+}
 
  .shapes__item--shape5{
     bottom: 12rem;
     left: 53%;
+    opacity: 0.7;
+    animation: moveShape5 45s infinite;
+ }
+
+
+ @keyframes moveShape5 {
+    0%{
+        transform: translateX(0) translateY(0);
+    }
+
+    40%{
+        transform: translateX(-600px) translateY(-500px);
+    }
+
+    75%{
+        transform: translateX(30px) translateY(-800px);
+    }
+
+    100%{
+        transform: translateX(0) translateY(0);
+    }
  }
 
  .shapes__item--shape6{
     bottom: 10rem;
     left: 40%;
+    animation: moveShape3 35s infinite;
+
  }
 
  .shapes__item--shape7{
