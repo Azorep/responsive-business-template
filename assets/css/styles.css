@@ -8,6 +8,7 @@
     --color-bg-btn: #ffdc60;
     --color-subtitle: #c75c6f;
     --color-title: #292930;
+    --color-bg-services: #f8f8f8;
 }
 
 /*ESTILOS GENERALES*/
@@ -440,8 +441,52 @@ body{
     padding: 5rem 4rem;
     margin-bottom: 4rem;
     border-radius: 3rem;
-    background: linear-gradient(180deg, #f8f8f8, rgba(255, 255, 255, 0));
+    background: linear-gradient(180deg, var(--color-bg-services), rgba(255, 255, 255, 0));
     background-color: var(--color-secondary);
     border: 1px solid;
-    border-image-source: linear-gradient(90deg, #f8f8f8, rgba(255, 255, 255, 0));
+    border-image-source: linear-gradient(90deg, var(--color-bg-services), rgba(255, 255, 255, 0));
+    transition: all 300ms ease-in-out;
+    display: flex;
+    flex-direction: row;
+}
+
+.services__service:hover{
+    background-color: var(--color-bg-services);
+}
+
+.service__container-img{
+    margin-right: 2.5rem;
+    max-width: 8.5rem;
+    flex: 1;
+}
+
+.service__content{
+    flex: 1;
+}
+
+.service__title{
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-bottom: 3rem;
+}
+
+.service__description{
+    font-size: 1.7rem;
+    overflow: hidden;
+    margin-bottom: 4rem;
+}
+
+.service__more{
+    font-size: 1.7rem;
+    position: relative;
+    display: inline-block;
+    font-weight: 500;
+    padding-left: 5rem;
+    transition: all 300ms ease-in-out;
+}
+
+.service__more:hover,
+.service__title:hover{
+    color: var(--color-primary);
 }
