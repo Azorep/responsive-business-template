@@ -427,5 +427,21 @@ body{
     font-weight: 500;
     line-height: 1.2;
     color: var(--color-title);
+}
 
+.services__list{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.services__service{
+    width: 33%;
+    padding: 5rem 4rem;
+    margin-bottom: 4rem;
+    border-radius: 3rem;
+    background: linear-gradient(180deg, #f8f8f8, rgba(255, 255, 255, 0));
+    background-color: var(--color-secondary);
+    border: 1px solid;
+    border-image-source: linear-gradient(90deg, #f8f8f8, rgba(255, 255, 255, 0));
 }
