@@ -438,6 +438,7 @@ body{
 
 .services__service{
     width: 33%;
+    height: 100%;
     padding: 5rem 4rem;
     margin-bottom: 4rem;
     border-radius: 3rem;
@@ -465,6 +466,7 @@ body{
 }
 
 .service__title{
+    color: var(--color-title);
     font-size: 2.4rem;
     font-weight: 500;
     line-height: 1.4;
@@ -486,7 +488,35 @@ body{
     transition: all 300ms ease-in-out;
 }
 
+.service__more::before{
+    content: "";
+    width: 3.4rem;
+    height: 1.5px;
+    background-color: var(--color-text-body);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transition: all 300ms ease-in-out;
+}
+
 .service__more:hover,
 .service__title:hover{
     color: var(--color-primary);
+}
+
+.service__more:hover::before{
+    background-color: var(--color-primary);
+}
+
+/*ESCALONADO DE LAS TARJETAS DE SERVICIOS*/
+.services__service--bottom{
+    margin-top: 20rem;
+}
+
+.services__service--middle{
+    margin-top: 10rem;
+}
+
+.services__service--top{
+    margin-top: 0rem;
 }
