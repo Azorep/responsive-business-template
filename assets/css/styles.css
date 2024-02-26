@@ -11,6 +11,8 @@
     --color-title: #292930;
     --color-bg-services: #f8f8f8;
     --color-bg-projects: #ecf2f6;
+    --color-bg-dark: #27272E;
+    --color-text-description: #99A1AA;
 }
 
 /*ESTILOS GENERALES*/
@@ -404,6 +406,7 @@ body{
 .layout__services{
     position: relative;
     margin: 14rem 10rem;
+    margin-bottom: 9rem;
     z-index: 1;
 }
 
@@ -418,7 +421,8 @@ body{
 }
 
 .services__subtitle,
-.projects__subtitle{
+.projects__subtitle,
+.stats__subtitle{
     font-size: 2rem;
     font-weight: 500;
     color: var(--color-subtitle);
@@ -426,7 +430,8 @@ body{
 }
 
 .services__title,
-.projects__title{
+.projects__title,
+.stats__title{
     font-size: 6.7rem;
     font-weight: 500;
     line-height: 1.2;
@@ -580,9 +585,11 @@ body{
     font-weight: 500;
     cursor: pointer;
     padding: 0.8rem 0;
+    transition: all 150ms ease-in-out;
 }
 
-.categories__item--active{
+.categories__item--active,
+.categories__item:hover{
     border-bottom: 3px solid var(--color-primary);
 }
 
@@ -628,4 +635,53 @@ body{
 
 .project__tags{
     font-size: 1.7rem;
+}
+
+.project-shapes__item{
+    position: absolute;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.project-shapes--shape1{
+    top: 2%;
+    right: 16%;
+}
+
+.project-shapes--shape2{
+    top: 2%;
+    right: 16%;
+}
+.project-shapes--shape3{
+    top: 33%;
+    left: 10%;
+}
+
+/* ESTILOS PARA ESTADISTICAS */
+.layout__stats{
+    background-color: var(--color-bg-dark);
+    padding: 14rem 11rem;
+}
+
+.stats__container{
+    max-width: var(--mx-width);
+    margin: 0 auto;
+}
+
+.stats__header{
+    text-align: center;
+}
+
+.stats__title{
+    font-size: 6.4rem;
+    color: var(--color-secondary);
+    margin-bottom: 3rem;
+}
+
+.stats__description{
+    font-size: 2rem;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    color: var(--color-text-description);
 }
