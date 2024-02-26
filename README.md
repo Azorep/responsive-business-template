@@ -1,10 +1,8 @@
 # Proyecto responsive-business-template! ![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
 
-¡Hey, Emprendedor! ¡Mira lo que te traigo!
+Este proyecto está actualmente en construcción. Estoy trabajando arduamente para desarrollar y mejorar esta herramienta.
 
-Este proyecto está actualmente en construcción. Estamos trabajando arduamente para desarrollar y mejorar esta herramienta. Apreciamos tu interés y paciencia mientras trabajamos en él.
-¿Estás cansado de luchar con plantillas de sitios web que parecen haber salido de la era de los dinosaurios? ¡Pues, amigo, estás en el lugar correcto! Te presento mi último y más 
-grande proyecto: un template completamente nuevo, brillante y listo para conquistar el mundo empresarial. Lo estaré desarrollando en el transcuro de dos semanas, espero tenerlo listo mucho antes. 
+¿Estás cansado de luchar con plantillas de sitios web que parecen haber salido de la era de los dinosaurios? ¡Pues, amigo, estás en el lugar correcto! Te presento un template completamente nuevo, brillante y listo para conquistar el mundo empresarial. Lo estaré desarrollando en el transcuro de dos semanas, espero tenerlo listo mucho antes. 
 
 
 ## Descripción
