@@ -21,11 +21,11 @@ Este proyecto está actualmente en construcción. Estoy trabajando arduamente pa
 
 ## Estado del Proyecto
 
-Este proyecto está actualmente en una etapa temprana de desarrollo. Estamos implementando nuevas características y mejoras continuamente. No dudes en echar un vistazo al código y contribuir si lo deseas.
+Este proyecto está actualmente en una etapa temprana de desarrollo. Estoy implementando nuevas características y mejoras continuamente. No dudes en echar un vistazo al código y contribuir si lo deseas.
 
 ## Contribuir
 
-¡Nos encantaría recibir tu ayuda para mejorar este proyecto! Si tienes ideas, sugerencias o te gustaría contribuir con código, ¡no dudes en hacerlo! Por favor, consulta nuestra guía de contribución para obtener más información sobre cómo puedes participar.
+¡Me encataria recibir tu ayuda para mejorar este proyecto! Si tienes ideas, sugerencias o te gustaría contribuir con código, ¡no dudes en hacerlo!.
 
 ## Contacto
 
