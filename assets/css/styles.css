@@ -1,5 +1,6 @@
 /* VARIABLES */
 :root{
+    --mx-width: 1320px;
     --color-text-body: #525260;
     --color-primary: #5956e9;
     --color-secondary: #fff;
@@ -9,6 +10,7 @@
     --color-subtitle: #c75c6f;
     --color-title: #292930;
     --color-bg-services: #f8f8f8;
+    --color-bg-projects: #ecf2f6;
 }
 
 /*ESTILOS GENERALES*/
@@ -406,7 +408,7 @@ body{
 }
 
 .services__grid{
-    max-width: 1320px;
+    max-width: var(--mx-width);
     margin: 0 auto;
 }
 
@@ -415,14 +417,16 @@ body{
     text-align: left;
 }
 
-.services__subtitle{
+.services__subtitle,
+.projects__subtitle{
     font-size: 2rem;
     font-weight: 500;
     color: var(--color-subtitle);
     margin-bottom: 1.5rem;
 }
 
-.services__title{
+.services__title,
+.projects__title{
     font-size: 6.7rem;
     font-weight: 500;
     line-height: 1.2;
@@ -540,3 +544,26 @@ body{
     top: 35%;
     left: 20%;
 }
+
+/*ESTILOS DE PROYECTOS*/
+
+.layout__projects{
+    position: relative;
+    background-color: var(--color-bg-projects);
+    padding: 14rem 10rem;
+    z-index: 1;
+}
+
+.projects__grid{
+    max-width: var(--mx-width);
+    margin: 0 auto;
+}
+
+.projects__header{
+    margin-bottom: 4rem;
+}
+
+.projects__subtitle{
+    text-transform: capitalize;
+}
+
