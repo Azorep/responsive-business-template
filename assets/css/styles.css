@@ -401,9 +401,8 @@ body{
 
 .layout__services{
     position: relative;
-    margin: 5rem 4rem;
+    margin: 14rem 10rem;
     z-index: 1;
-    border: 1px solid red;
 }
 
 .services__grid{
@@ -519,4 +518,25 @@ body{
 
 .services__service--top{
     margin-top: 0rem;
+}
+/*Formas detras de los servicios */
+.service-shapes__item{
+    position: absolute;
+    z-index: -1;
+    pointer-events:none;
+}
+
+.service-shapes--shape1{
+    top: -20%;
+    right: 10%;
+}
+
+.service-shapes--shape2{
+    top: 20%;
+    left: 52%;
+}
+
+.service-shapes--shape3{
+    top: 35%;
+    left: 20%;
 }
