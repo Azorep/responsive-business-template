@@ -666,6 +666,7 @@ body{
 .layout__clients{
     background-color: var(--color-bg-dark);
     padding: 14rem 10rem;
+    padding-bottom: 12rem;
 }
 
 .stats__container,
@@ -828,6 +829,11 @@ body{
 
 /* ESTILOS EXCLUSIVOS A MEJORES CLIENTES*/
 
+.layout__clients{
+    position: relative;
+    z-index: 1;
+}
+
 .clients__header{
     text-align: left;
 }
@@ -842,4 +848,35 @@ body{
     text-align: left;
     width: 40%;
     margin: 0;
+    margin-bottom: 6rem;
+}
+
+.clients__logo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.clients__item{
+    width: cacl(25% - 3rem);
+}
+
+.clients__img{
+    filter: grayscale(100%);
+    opacity: 0.3;
+    transition: all 300ms ease-in-out;
+}
+
+.clients__item:hover > .clients__img{
+    filter: grayscale(0);
+    opacity: 1;
+    cursor: pointer;
+}
+
+.client-shapes__item{
+    position: absolute;
+    z-index: -1;
+    top: 10rem;
+    right: 0;
 }
