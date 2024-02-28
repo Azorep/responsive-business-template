@@ -963,6 +963,13 @@ body{
     line-height: 1.4;
     color: var(--color-title);
     margin-bottom: 2rem;
+    transition: all 300ms ease-in-out;
+}
+
+.new__title:hover,
+.new__more:hover{
+    color: var(--color-primary);
+
 }
 
 .new__description{
@@ -970,4 +977,42 @@ body{
     font-weight: normal;
     color: var(--color-text-description);
     margin-bottom: 3rem;
+}
+
+.new__more{
+    display: inline-block;
+    font-weight: 700;
+    color: var(--color-hover-dark);
+    font-size: 1.7;
+    transition: all 300ms ease-in-out;
+}
+
+.new__icon{
+    font-size: 1.3rem;
+    vertical-align: middle;
+}
+
+.new-shapes__item{
+    position: absolute;
+    z-index: -1;
+}
+
+.new-shapes--shape1{
+    top: 14rem;
+    left: 31.5rem;
+}
+
+.new-shapes--shape2{
+    top: 12rem;
+    right: 0;
+}
+
+.new-shapes--shape3{
+    bottom: 8rem;
+    left: 0;
+}
+
+.new-shapes--shape4{
+    bottom: 8rem;
+    right: 18rem;
 }
