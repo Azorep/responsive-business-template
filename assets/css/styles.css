@@ -1016,3 +1016,44 @@ body{
     bottom: 8rem;
     right: 18rem;
 }
+
+/* ESTILOS DE CONTACTO */
+
+.layout__contact{
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    padding: 0;
+    padding-top: 14rem;
+    padding-bottom: 10rem;
+    background-color: var(--color-primary);
+}
+
+.contact__container{
+    max-width: var(--mx-width);
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.contact__header{
+    margin-bottom: 6.5rem;
+    text-align: center;
+}
+
+.contact__subtitle{
+   
+    color: var(--color-bg-btn);
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.contact__title{
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 5.5rem;
+    font-size: 6.4rem;
+    line-height: 1.2;
+    font-weight: 500;
+    color: var(--color-secondary);
+}
