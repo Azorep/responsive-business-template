@@ -1026,7 +1026,19 @@ body{
     padding: 0;
     padding-top: 14rem;
     padding-bottom: 10rem;
+}
+
+.layout__contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 59rem;
+    top: 0;
+    left: 0;
+    right: 0;
     background-color: var(--color-primary);
+    z-index: -1;
+
 }
 
 .contact__container{
