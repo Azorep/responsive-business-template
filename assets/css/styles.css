@@ -1135,32 +1135,65 @@ body{
     animation: moveShape3 20s infinite;
   }
 
-  .backshapes--shape3{
+.backshapes--shape3{
     top: 31%;
     left: 20%;
     animation: moveShape4 25s infinite;
   }
 
-  .backshapes--shape4{
+.backshapes--shape4{
     top: 44%;
     left: 28%;
     animation: moveShape3 25s infinite;
   }
 
-  .backshapes--shape5{
+.backshapes--shape5{
     top: 50%;
     right: 17%;
     animation: moveShape4 30s infinite;
   }
 
-  .backshapes--shape6{
+.backshapes--shape6{
     top: 26%;
     right: 21%;
     animation: moveShape5 30s infinite;
   }
 
-  .backshapes--shape7{
+.backshapes--shape7{
     top: 30%;
     right: 16%;
     animation: moveShape3 30s infinite;
   }
+
+  /*ESTILOS DEL FOOTER*/
+
+.layout__footer{
+    padding-top: 1rem;
+  }
+
+.footer__container{
+    max-width: var(--mx-width);
+    margin: 0 auto;
+  }
+
+.footer__top{
+    padding-bottom: 7rem;
+}
+
+.footer__social{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social__img{
+    display: inline-block;
+    color: var(--color-text-description);
+    font-size: 3rem;
+    padding: 0.5rem;
+    transition: all 300ms ease-in-out;
+}
+
+.social__link:hover > .social__img{
+    color: var(--color-text-body);
+}
