@@ -466,3 +466,60 @@
     }
 
 }
+
+@media (max-width: 640px){
+
+    .layout__projects,
+    .stats__container,
+    .contact__container,
+    .reviews__grid,
+    .clients__container,
+    .news__container,
+    .footer__container {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .layout__services{
+        margin-left: 3rem;
+        margin-right: 1rem;
+    }
+
+    .contact__thumb--chat {
+        margin-right: -15rem;
+        margin-bottom: -0.8rem;
+   
+    }
+
+   
+    .contact__thumb--laptop{
+        bottom: 0;
+        left: 0rem;
+    }
+
+    .contact__thumb--mobile{
+        bottom: 0;
+        right: -8rem;
+    }
+
+    .contact__img{
+        width: 35%;
+    }
+
+    .contact__btn {
+        left: 30%;
+    }
+
+    .footer__widget--50{
+        flex-basis: auto;
+    }
+
+    .footer__frigth{
+        display: flex;
+        flex-direction: row;
+        flex-basis: 100%;
+        gap: 4rem;
+    }
+
+
+}
