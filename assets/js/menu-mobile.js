@@ -32,6 +32,23 @@ document.addEventListener("DOMContentLoaded", (event) => {
     // Poder cerrar el menú con el botón "X"
     let btn_close = document.querySelector(".menu-mobile__close");
 
-    btn_close.addEventListener("click", showHiddenMenu)
+    btn_close.addEventListener("click", showHiddenMenu);
+
+  // Desplegar submenus
+let menu_item = document.querySelectorAll(".menu-mobile__item");
+
+menu_item.forEach(item => {
+    item.addEventListener("click", (event) => {
+        let submenu = item.lastElementChild;
+
+        if(submenu.classList.contains("menu-mobile__submenu-mobile")) {
+            if(submenu.style.display === "block") {
+                submenu.style.display = "none";
+            } else {
+                submenu.style.display = "block";
+            }
+        }
+    });
+});
 
 });
