@@ -998,7 +998,7 @@ body{
     display: inline-block;
     font-weight: 700;
     color: var(--color-hover-dark);
-    font-size: 1.7;
+    font-size: 1.7rem;
     transition: all 300ms ease-in-out;
 }
 
