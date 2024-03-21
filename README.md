@@ -25,13 +25,13 @@
 
 ## Características del proyecto y demostración
 
-![Demostración 1](assets/img/demo1-op.gif)
+![Demostración 1](https://i.imgur.com/TKHDwIt.gif)
 
-![Demostración 2](assets/img/demo2-op.gif)
+![Demostración 2](https://i.imgur.com/Trc39T9.gif)
 
-![Demostración 3](assets/img/demo4-op.gif)
+![Demostración 3](https://i.imgur.com/YG0tgKQ.gif)
 
-![Demostración 4](assets/img/demo3-op.gif)
+![Demostración 4](https://i.imgur.com/hyH50Co.gif)
 
 Layout responsive: La plataforma está diseñada con un layout completamente responsive, con un enfoque mobile first.
 
